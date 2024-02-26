@@ -24,7 +24,7 @@ async def rename_file(bot, msg):
         except Exception as e:            
             return await sts.edit(text=f"Your caption Error unexpected keyword ●> ({e})")           
     else:
-        cap = f"**@noisemovies {old_name}**"
+        cap = f"**{old_name}**"
 
     dir = os.listdir(DOWNLOAD_LOCATION)
     if len(dir) == 0:

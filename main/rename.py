@@ -24,7 +24,7 @@ async def rename_file(bot, msg):
         except Exception as e:
             return await sts.edit(text=f"Your caption Error unexpected keyword ●> ({e})")
     else:
-        cap = f"**@noisemovies {old_name}**"
+        cap = f"**{old_name}**"
 
     og_thumbnail = None
     if media.thumbs is not None and len(media.thumbs) > 0:
@@ -34,7 +34,7 @@ async def rename_file(bot, msg):
     await sts.edit("Trying to Uploading")
 
     try:
-        thumb_url = "https://telegra.ph/file/dca389b38e62071a5c9b3.jpg"
+        thumb_url = "https://telegra.ph/file/af7fcc094863fce1d670a.jpg"
         thumb_file_path = os.path.join(DOWNLOAD_LOCATION, "custom_thumbnail.jpg")
         response = requests.get(thumb_url)
         if response.status_code == 200:

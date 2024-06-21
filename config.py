@@ -1,13 +1,13 @@
 from os import environ
 
-API_ID = int(environ.get("API_ID", "977080"))
-API_HASH = environ.get("API_HASH", "0c20c4265501492a1513f91755acd42b")
-BOT_TOKEN = environ.get("BOT_TOKEN", "6131001082:AAFbw-32rRCzYDhEJh4u77JbbvY4aY910d4")
-ADMIN = int(environ.get("ADMIN", "399726799"))          
+API_ID = int(environ.get("API_ID", "22225617"))
+API_HASH = environ.get("API_HASH", "ef16f7597376f1689663304c954e4493")
+BOT_TOKEN = environ.get("BOT_TOKEN", "6836055763:AAG9OscyB2DLPLhhkOJodD-ejeoFCWdx7VY")
+ADMIN = int(environ.get("ADMIN", "6072149828"))          
 CAPTION = environ.get("CAPTION", "")
-DESTINATION_CHANNEL = int(environ.get("DESTINATION_CHANNEL", "-1002112267615"))
-SOURCE_CHANNEL = int(environ.get("SOURCE_CHANNEL", "-1002007777333"))
-DB_URL  = environ.get("DB_URL","mongodb+srv://abcd:abcd@cluster0.jmkqvnb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # ⚠️ Required
+DESTINATION_CHANNEL = int(environ.get("DESTINATION_CHANNEL", "-1002230003595"))
+SOURCE_CHANNEL = int(environ.get("SOURCE_CHANNEL", "-1002161894901"))
+DB_URL  = environ.get("DB_URL","mongodb+srv://akmonsterprogrammer:S.Aruna1155182089@rename.rvuuf55.mongodb.net/?retryWrites=true&w=majority&appName=rename") # ⚠️ Required
 
 # for thumbnail ( back end is MrMKN brain 😉)
 DOWNLOAD_LOCATION = "./DOWNLOADS"
